@@ -91,8 +91,8 @@
 
     <gazebo reference="front_left_wheel">
         <material>Gazebo/Blue</material>
-        <mu1 value="0"/>
-        <mu2 value="0"/>
+        <!-- <mu1 value="0"/>
+        <mu2 value="0"/> -->
     </gazebo>
 
     <!-- Middle Left Wheel Link -->
@@ -153,8 +153,8 @@
 
     <gazebo reference="back_left_wheel">
         <material>Gazebo/Blue</material>
-        <mu1 value="0"/>
-        <mu2 value="0"/>
+        <!-- <mu1 value="0"/>
+        <mu2 value="0"/> -->
     </gazebo>
 
     <!-- Front Right Wheel Link -->
@@ -185,8 +185,8 @@
 
     <gazebo reference="front_right_wheel">
         <material>Gazebo/Blue</material>
-        <mu1 value="0"/>
-        <mu2 value="0"/>
+        <!-- <mu1 value="0"/>
+        <mu2 value="0"/> -->
     </gazebo>
 
     <!-- Middle Right Wheel Link -->
@@ -247,7 +247,7 @@
 
     <gazebo reference="back_right_wheel">
         <material>Gazebo/Blue</material>
-        <mu1 value="0"/>
-        <mu2 value="0"/>
+        <!-- <mu1 value="0"/>
+        <mu2 value="0"/> -->
     </gazebo>
 </robot>
