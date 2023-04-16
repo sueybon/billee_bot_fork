@@ -43,10 +43,23 @@ def generate_launch_description():
     
     gui = Node(package='joint_state_publisher_gui', executable='joint_state_publisher_gui')
 
+    diff_drive_spawner = Node(
+        package="controller_manager",
+        executable="spawner.py",
+        arguments=["diff_cont"],
+    )
+
+    joint_broad_spawner = Node(
+        package="controller_manager",
+        executable="spawner.py",
+        arguments=["joint_broad"],
+    )
+
     # Launch them all!
     return LaunchDescription([
         rsp,
         gazebo,
         spawn_entity,
-        gui
+        diff_drive_spawner,
+        joint_broad_spawner
     ])
