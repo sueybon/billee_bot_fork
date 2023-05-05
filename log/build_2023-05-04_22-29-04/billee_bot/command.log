@@ -1,0 +1,2 @@
+Invoking command in '/home/sueybon/ros2_ws/src/billee_bot/build/billee_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/sueybon/ros2_ws/src/billee_bot -DCMAKE_INSTALL_PREFIX=/home/sueybon/ros2_ws/src/billee_bot/install/billee_bot
+Invoked command in '/home/sueybon/ros2_ws/src/billee_bot/build/billee_bot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/sueybon/ros2_ws/src/billee_bot -DCMAKE_INSTALL_PREFIX=/home/sueybon/ros2_ws/src/billee_bot/install/billee_bot
